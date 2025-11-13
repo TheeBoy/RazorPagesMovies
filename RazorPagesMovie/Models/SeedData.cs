@@ -32,6 +32,7 @@ public static class SeedData
                     Rating = "R"
 
 
+
                 },
 
                 new Movie

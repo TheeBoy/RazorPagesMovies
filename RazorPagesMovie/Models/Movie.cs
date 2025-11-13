@@ -10,6 +10,7 @@ public class Movie
     [StringLength(60, MinimumLength = 3)]
     [Required]
     public string Title { get; set; } = string.Empty;
+    public string Subtitle { get; set; } = string.Empty;
 
     [DataType(DataType.Date)]
     public DateTime ReleaseDate { get; set; }
@@ -28,4 +29,7 @@ public class Movie
     [StringLength(5)]
     [Required]
     public string Rating { get; set; } = string.Empty;
+  
+   
+
 }
